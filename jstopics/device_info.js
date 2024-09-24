@@ -1,0 +1,12 @@
+hmLoadTopic({
+hmKeywords:"info",
+hmTitle:"Device info",
+hmDescription:"The mode is intended for presenting brief information about the device:",
+hmPrevLink:"scan.html",
+hmNextLink:"alarms.html",
+hmParentLink:"presentation_mode.html",
+hmBreadCrumbs:"<a href=\"standalone_use.html\">Stand-alone use of the device<\/a> &gt; <a href=\"presentation_mode.html\">Display Modes<\/a>",
+hmTitlePath:"Stand-alone use of the device > Display Modes > Device info",
+hmHeader:"<h1 class=\"p_Heading1\"><span class=\"f_Heading1\">Device info<\/span><\/h1>\n\r",
+hmBody:"<p class=\"p_Normal\">The mode is intended for presenting brief information about the device:<\/p>\n\r<p style=\"text-align: left; text-indent: 0px; padding: 0px 0px 0px 0.8125rem; margin: 0px 0px 0px 0px;\"><span style=\"font-size:1.00rem; font-family: \'Arial Unicode MS\',\'Lucida Sans Unicode\',\'Arial\';color:#000000;display:inline-block;width:0.8125rem;margin-left:-0.8125rem\">&#8226;<\/span>Instrument model and serial number;<\/p><p style=\"text-align: left; text-indent: 0px; padding: 0px 0px 0px 0.8125rem; margin: 0px 0px 0px 0px;\"><span style=\"font-size:1.00rem; font-family: \'Arial Unicode MS\',\'Lucida Sans Unicode\',\'Arial\';color:#000000;display:inline-block;width:0.8125rem;margin-left:-0.8125rem\">&#8226;<\/span>Firmware version;<\/p><p style=\"text-align: left; text-indent: 0px; padding: 0px 0px 0px 0.8125rem; margin: 0px 0px 0px 0px;\"><span style=\"font-size:1.00rem; font-family: \'Arial Unicode MS\',\'Lucida Sans Unicode\',\'Arial\';color:#000000;display:inline-block;width:0.8125rem;margin-left:-0.8125rem\">&#8226;<\/span>Bootloader version;<\/p><p style=\"text-align: left; text-indent: 0px; padding: 0px 0px 0px 0.8125rem; margin: 0px 0px 0px 0px;\"><span style=\"font-size:1.00rem; font-family: \'Courier New\';color:#000000;display:inline-block;width:0.8125rem;margin-left:-0.8125rem\">o<\/span>FCC ID. <span style=\"font-style: italic;\">*Not specified for all devices<\/span><\/p><p class=\"p_Normal\">&nbsp;<\/p>\n\r<p class=\"p_Normal\"><img alt=\"menu_device_info_selected_f\" style=\"margin:0;width:9.5000rem;height:7.9375rem;border:none\" src=\".\/images\/menu_device_info_selected_f.png\"\/><\/p>\n\r<p class=\"p_Normal\">&nbsp;<\/p>\n\r<p class=\"p_Normal\"><img alt=\"settings_device_info_dialog_f\" style=\"float:left;margin:0;width:9.5000rem;height:7.9375rem;border:none\" src=\".\/images\/settings_device_info_dialog_f.png\"\/><\/p>\n\r"
+})
