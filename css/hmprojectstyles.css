@@ -1,0 +1,251 @@
+/* Text Styles */
+hr { color: #000000}
+body, table, tr, th /* Normal */
+{
+ font-size: 100%;
+ font-family: Arial,Helvetica,sans-serif;
+ font-style: normal;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+}
+table, tr, th
+{
+ font-size: 100%;
+}
+span.f_Bold /* Bold */
+{
+ font-weight: bold;
+}
+span.f_CodeExample /* Code Example */
+{
+ font-size: 0.80rem;
+ font-family: 'Courier New';
+}
+span.f_Comment /* Comment */
+{
+}
+span.f_HMComment /* H&M Comment */
+{
+}
+span.f_HMHeading1 /* H&M Heading1 */
+{
+ font-size: 1.60rem;
+}
+span.f_HMImageCaption /* H&M Image Caption */
+{
+ font-size: 0.80rem;
+}
+span.f_HMNormal /* H&M Normal */
+{
+}
+span.f_HMNotes /* H&M Notes */
+{
+}
+span.f_heading1 /* heading 1 */
+{
+ font-size: 1.10rem;
+ font-weight: bold;
+ color: #ffffff;
+ letter-spacing: 0.0625rem;
+ text-transform: uppercase;
+}
+span.f_heading2 /* heading 2 */
+{
+ font-size: 1.10rem;
+ letter-spacing: 0.0625rem;
+ text-transform: uppercase;
+}
+span.f_heading3 /* heading 3 */
+{
+ font-size: 1.10rem;
+ color: #243f60;
+ letter-spacing: 0.0625rem;
+ text-transform: uppercase;
+}
+span.f_Heading1 /* Heading1 */
+{
+ font-size: 1.60rem;
+ font-weight: bold;
+}
+span.f_Hyperlink /* Hyperlink */
+{
+ color: #0000ff;
+ text-decoration: underline;
+}
+span.f_ImageCaption /* Image Caption */
+{
+ font-size: 0.80rem;
+ font-weight: bold;
+}
+span.f_index1 /* index 1 */
+{
+ font-size: 0.90rem;
+}
+span.f_indexheading /* index heading */
+{
+ font-size: 1.30rem;
+ font-style: italic;
+ font-weight: bold;
+}
+span.f_Notes /* Notes */
+{
+}
+span.f_Subtitle /* Subtitle */
+{
+ font-size: 1.20rem;
+ color: #595959;
+ letter-spacing: 0.0625rem;
+ text-transform: uppercase;
+}
+span.f_toc1 /* toc 1 */
+{
+}
+span.f_toc2 /* toc 2 */
+{
+}
+span.f_toc3 /* toc 3 */
+{
+}
+/* Paragraph styles */
+p, p.p_Normal, div.p_Normal /* Normal */
+{
+ text-align: left;
+ text-indent: 0px;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+}
+.p_Bold /* Bold */
+{
+ font-size: 1.00rem;
+}
+.p_CodeExample /* Code Example */
+{
+ font-size: 0.80rem;
+ line-height: 1.0;
+ white-space: nowrap;
+ page-break-inside: avoid;
+}
+.p_Comment /* Comment */
+{
+ font-size: 1.00rem;
+}
+.p_heading1 /* heading 1 */
+{
+ font-size: 1.10rem;
+ border-color: #4f81bd;
+ border-style: solid;
+ border-width: 0.2500rem;
+ background: #4f81bd;
+ margin: 1.0625rem 0.1875rem 2.2500rem 0.1875rem;
+}
+.p_heading2 /* heading 2 */
+{
+ font-size: 1.10rem;
+ border-color: #dbe5f1;
+ border-style: solid;
+ border-width: 0.2500rem;
+ background: #dbe5f1;
+ margin: 1.0625rem 0.1875rem 2.2500rem 0.1875rem;
+}
+.p_heading3 /* heading 3 */
+{
+ font-size: 1.10rem;
+ border-color: #4f81bd;
+ border-style: solid;
+ border-width: 0px;
+ border-right: none;
+ border-bottom: none;
+ padding: 0.1875rem 0.1875rem 0.1875rem 0.1875rem;
+ margin: 1.3125rem 0px 0.8125rem 0px;
+}
+.p_Heading1 /* Heading1 */
+{
+ font-size: 100%;
+ font-weight: normal;
+ text-align: left;
+ text-indent: 0px;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+}
+.p_ImageCaption /* Image Caption */
+{
+ font-size: 0.80rem;
+}
+.p_index1 /* index 1 */
+{
+ font-size: 0.90rem;
+ text-indent: -0.8125rem;
+ margin: 0px 0px 0px 0.8125rem;
+}
+.p_indexheading /* index heading */
+{
+ font-size: 1.30rem;
+ border-color: #000000;
+ border-style: solid;
+ border-width: 0.1250rem;
+ border-right: none;
+ border-bottom: none;
+ border-left: none;
+ margin: 1.6250rem 0.0625rem 1.0000rem 0.0625rem;
+}
+.p_Notes /* Notes */
+{
+ font-size: 1.00rem;
+}
+.p_Subtitle /* Subtitle */
+{
+ font-size: 1.20rem;
+ margin: 0px 0px 4.1875rem 0px;
+}
+.p_toc1 /* toc 1 */
+{
+ font-size: 1.00rem;
+ margin: 0px 0px 0.4375rem 0px;
+}
+.p_toc2 /* toc 2 */
+{
+ font-size: 1.00rem;
+ margin: 0px 0px 0.4375rem 0.8125rem;
+}
+.p_toc3 /* toc 3 */
+{
+ font-size: 1.00rem;
+ margin: 0px 0px 0.4375rem 1.6875rem;
+}
+div.hmrotate90  { display:inline-block; transform: -webkit-writing-mode: vertical-rl; -ms-writing-mode: tb-rl; writing-mode: vertical-rl; }
+div.hmrotate270 { display:inline-block; transform: -webkit-writing-mode: vertical-rl; -ms-writing-mode: tb-rl; writing-mode: vertical-rl; transform: rotate(180deg); }
+
+
+
+#hmlightbox /* image lightbox */
+{
+  border: none;
+  padding: 8px;
+  background: #FFF;
+  font-size: 110%;
+  font-weight: bold;
+  color: #777;
+  box-shadow: 5px 5px 5px #888;
+}
+
+a.dropdown-toggle /* dropdown toggle caption */
+{
+  cursor: pointer;
+}
+a.inline-toggle /* inline toggle caption */
+{
+  cursor: pointer;
+}
+img.dropdown-toggle-icon /* toggle icon */
+{
+  cursor: pointer;
+}
+/* CSS for responsive image maps */
+
+.hmImageMap a.hmHotspotRect { display:block; position:absolute; border: 1px solid transparent; background:#000; opacity:0.01; filter:alpha(opacity=1)  }
+.hmImageMap a.hmHotspotEllipse { display:block; position:absolute; border-radius:50%; border: 1px solid transparent; background:#000; opacity:0.01; filter:alpha(opacity=1) }
+.hmImageMap:hover a.hmHotspotRect {opacity:0.3; filter:alpha(opacity=30); }
+.hmImageMap:hover a.hmHotspotEllipse { opacity:0.3; filter:alpha(opacity=30); }
+a.hmHotspotRect:hover { border:1px solid #000; background:#FFF; opacity:0.3; filter:alpha(opacity=30) }
+a.hmHotspotEllipse:hover { border:1px solid #000; background:#FFF; opacity:0.3; filter:alpha(opacity=30) }
